@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 90, 212);
+}
+
+.button-container {
+    width: 100vw;
+    height: 85px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: #cafb6d;
+    border: 1px solid darkgrey;
+    width: 100px;
+    height: 100px;
+}
+
+.clicked {
+    background-color: aquamarine;
+}
+
